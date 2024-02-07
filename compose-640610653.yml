@@ -1,0 +1,6 @@
+version: '3.8'
+services:
+  app:
+    image: pantagon/midterm:latest
+    ports:
+      - "8653:3000"
